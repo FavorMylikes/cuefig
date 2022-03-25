@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open('requirements.txt') as f:
+with open('requirements.txt', mode="r", encoding="utf8") as f:
     required = f.read().splitlines()
 
 setup(
@@ -19,5 +19,6 @@ setup(
     ],
     install_requires=required,
     packages=find_packages(),
+    package_data={'': ['requirements.txt']},
     python_requires=">=3.7",
 )
