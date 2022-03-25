@@ -19,6 +19,5 @@ setup(
     ],
     install_requires=required,
     packages=find_packages(),
-    package_data={'': ['requirements.txt']},
     python_requires=">=3.7",
 )
