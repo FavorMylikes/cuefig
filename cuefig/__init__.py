@@ -1,5 +1,3 @@
-import sys
-
 from cuefig.utils import eprint
 
 try:

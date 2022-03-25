@@ -18,8 +18,9 @@
 ```
 
 ```python
+
 import cuefig
-from cuefig.logger import logger
+from cuefig import logger
 
 if __name__ == '__main__':
     logger.info("hi")
