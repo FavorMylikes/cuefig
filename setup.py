@@ -8,7 +8,7 @@ __version__ = "0.0.3"
 
 
 def read_readme():
-    with open('README.md') as f:
+    with open('README.md', mode="r", encoding="utf8") as f:
         return f.read()
 
 
