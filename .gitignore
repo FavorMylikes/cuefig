@@ -2,3 +2,5 @@
 /build/
 /config_cue.egg-info/
 /cuefig.egg-info/
+.idea
+**/__pycache__
