@@ -85,7 +85,7 @@ setup(
     packages=find_packages(),
     python_requires=">=3.7",
     entry_points={
-        'console_scripts': ['cuefig=cuefig:cli:main'],
+        'console_scripts': ['cuefig=cuefig.cli:main'],
     },
     cmdclass={
         'deploy': DeployCommand,
