@@ -62,8 +62,7 @@ class DeployCommand(Command):
         sys.exit()
 
 
-with open('requirements.txt', mode="r", encoding="utf8") as f:
-    install_requires = f.read().splitlines()
+install_requires = ["PyYAML>=6.0"]
 
 setup(
     name='cuefig',
