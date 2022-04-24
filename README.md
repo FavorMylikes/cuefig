@@ -29,6 +29,6 @@ if __name__ == '__main__':
     print(f"Path var: {cuefig.ROOT_DIR}")
 ```
 
-![img.png](img/img.png)
+![img.png](https://raw.githubusercontent.com/FavorMylikes/cuefig/main/img/img.png)
 
 - Here you can see, the config variable be `cue` as in very fast way. 
