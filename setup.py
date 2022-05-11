@@ -4,7 +4,7 @@ import re
 import sys
 
 __PATH__ = os.path.abspath(os.path.dirname(__file__))
-__version__ = "0.0.8"
+__version__ = "0.0.9"
 
 
 def read_readme():
